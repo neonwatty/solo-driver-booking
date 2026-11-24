@@ -18,3 +18,15 @@ The driver invites clients and uses one dashboard to see new requests and upcomi
 ## First scenario
 
 A repeat client requests a round trip from Cave Creek to Phoenix Sky Harbor. The driver approves both legs and sends the price. The rider pays on their phone and sees both pickups confirmed. If the return timing changes, the confirmed pickup stays in place until the driver and rider agree on a new time.
+
+## Mockup workflows
+
+- [Send and accept an invitation](.workflows/01-client-invitation.md)
+- [Request a ride](.workflows/02-ride-request.md)
+- [Review a request and send a quote](.workflows/03-driver-quote.md)
+- [Pay and confirm the booking](.workflows/04-payment-and-confirmation.md)
+- [Recover from a failed payment](.workflows/05-payment-recovery.md)
+- [Change the return pickup time](.workflows/06-return-time-change.md)
+- [Cancel the return leg](.workflows/07-return-cancellation.md)
+- [Book with the same driver again](.workflows/08-rebooking.md)
+- [See pickup-day updates](.workflows/09-pickup-day.md)
