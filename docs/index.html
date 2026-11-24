@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A mobile prototype for booking a ride with your private driver.">
+  <meta name="theme-color" content="#132d28">
+  <title>Solo Driver Booking</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./vendor/qrcode.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <header class="demo-bar">
+    <div class="demo-inner">
+      <span class="demo-label">Booking prototype</span>
+      <div class="demo-controls">
+        <div class="switch" role="group" aria-label="Prototype view">
+          <button type="button" data-action="rider" aria-pressed="true">Rider</button>
+          <button type="button" data-action="driver" aria-pressed="false">Driver</button>
+        </div>
+        <button type="button" class="reset" data-action="restart">Restart demo</button>
+      </div>
+    </div>
+  </header>
+  <main id="app" tabindex="-1"></main>
+  <noscript><p class="noscript">Enable JavaScript to try this booking prototype.</p></noscript>
+</body>
+</html>
