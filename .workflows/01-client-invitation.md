@@ -6,4 +6,4 @@ The driver invites an existing client, and the client verifies the invited conta
 2. Open the link as the rider. The invitation identifies the driver and their business. The masked number tells the rider where to expect verification.
 3. Simulate verification of the invited number. The rider lands on that driver’s booking page. The invitation becomes **Accepted** in the driver’s Clients view.
 
-**Demo behavior.** An invitation is preloaded so the walkthrough can also start directly on the invitation screen. **Open as rider** switches to the selected invitation. Contact verification is simulated. Accepted drivers are available under **My Drivers**.
+**Demo behavior.** An invitation is preloaded so the walkthrough can start directly on the invitation screen. The demo link and QR open that sample invitation. **Open as rider** previews the phone number entered in the driver view. Contact verification is simulated. Accepted drivers are available under **My Drivers**.
